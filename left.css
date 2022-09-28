@@ -1,0 +1,181 @@
+.left {
+  height: max-content;
+  position: sticky;
+  top: 12px;
+}
+.profile {
+  display: flex;
+  padding: 19px 18px;
+  background: var(--color-white);
+  border-radius: 15px;
+  position: relative;
+  top: 8px;
+}
+
+.profile .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 12px;
+}
+
+.links {
+  background: var(--color-white);
+  border-radius: 15px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: start;
+  gap: 2rem;
+  font-size: 17px;
+  padding: 15px 22px;
+}
+
+.left button {
+  padding: 12px 77px;
+  border-radius: 7px;
+  border: 1px solid transparent;
+  background: var(--primary-color-hue);
+  color: white;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+.left button:hover {
+  transform: scale(1.1);
+}
+
+
+.left-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 0;
+  
+}
+
+.notifications-popup {
+  background-color: var(--color-white);
+  box-shadow: 0 0 1rem var(--primary-color-hue);
+  height: max-content;
+  position: absolute;
+  left: 260px;
+  width: max-content;
+  border-radius: 15px;
+  padding: 14px 15px;
+  bottom: 92px;
+  display: none;
+}
+
+.notifications-popup::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: block;
+    background-color: red;
+    position: absolute;
+    top: 12px;
+    left: -9px;
+    transform: rotate(45deg);
+    background-color:var(--color-white);
+    
+
+
+
+}
+
+
+.text-muted {
+  color: gray;
+  font-size: 12px;
+}
+
+.notification-body {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 0.6rem;
+  margin-bottom: 12px;
+}
+
+
+.title-notification{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    color: black;
+}
+
+.notification-body:last-child  {
+  /* margin-left: -3px; */
+    margin-bottom: 0;
+}
+
+
+.links i{
+    font-size: 22px;
+    margin-right: 12px;
+}
+
+.links a:hover{
+    cursor: pointer;
+    color: crimson;
+}
+
+/* .left .active::before{
+    content: '';
+    width: 5.5px;
+    height: 43px;
+    display: block;
+    color: red;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    top: 104px;
+
+    
+}    */
+
+.left .active{
+  color: crimson;
+
+}
+
+.name b {
+  color: black;
+}
+
+
+
+
+#noti i{
+  position: relative;
+
+}
+
+.notifications-count small{
+  background-color: red;
+  color: white;
+  position: absolute;
+  top: 12px;
+  left: 0;
+  width: fit-content;
+  /* height: 0.6rem; */
+  overflow: hidden;
+  text-align: center;
+/* padding: 0.5px 0.5px; */
+border-radius: 50%;
+/* overflow: hidden; */
+/* text-align: center; */
+/* display: flex; */
+/* justify-content: center; */
+/* align-items: center; */
+/* font-size: 14px; */
+/* padding-left: 1px; */
+
+}
+
+.name p{
+  color: gray;
+}

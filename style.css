@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans&family=Poppins&family=Smooch&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+nav{
+    width: 100%;
+    background-color: var(--color-white);
+
+}
+
+nav .container{
+width: 80%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-left: 125px;
+height: 10vh;
+}
+
+.logo h4{
+    font-size: 17px;
+color: black;
+}
+
+.profile-pic{
+    width: 2.7rem;
+    height: 2.7rem;
+    overflow: hidden;
+    border-radius: 50%;
+
+}
+
+.profile-pic img{
+    width: 100%;
+    
+}
+
+nav button{
+    padding: 9px 21px;
+    border-radius: 25px;
+    background-color: var(--primary-color-hue);
+    color: white;
+    border: 2px solid transparent;
+    transition: all 0.4s ease;
+    cursor: pointer;
+
+}
+
+nav button:hover{
+   transform: scale(1.1);
+}
+
+.right-btn-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+
+    /* background-color: yellow; */
+}
+
+.search-bar{
+    padding: 10px 28px;
+background-color: blue;
+border-radius: 20px;
+ background: var(--color-dark);
+
+}
+
+.search-bar input{width: 277px;
+    background: transparent;
+    border: transparent;
+    color: balc;
+    color: darkbla;
+    color: black;
+    margin-left: 1rem;
+}
+
+nav .container .logo span {
+    color: var(--primary-color-hue);
+}
+
